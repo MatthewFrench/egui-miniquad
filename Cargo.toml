@@ -19,9 +19,9 @@ include = [
 ]
 
 [dependencies]
-egui = "0.16.0"
-miniquad = { version = "=0.3.0-alpha.43" }
-quad-url = "0.1.0"
+egui = { git = "https://github.com/emilk/egui", branch = "master" }
+miniquad = { git = "https://github.com/not-fl3/miniquad", branch = "master" }
+quad-url = { git = "https://github.com/optozorax/quad-url", branch = "master" }
 
 # https://github.com/not-fl3/miniquad/issues/172
 [target.'cfg(target_os = "macos")'.dependencies]
